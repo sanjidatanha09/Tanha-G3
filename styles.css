@@ -1,3 +1,122 @@
-header{
-    background: rgba(255, 144, 14, 0.10);
+/*primary section  use for common section*/
+.btn-primary{
+    border-radius: 8px;
+        background: #FF900E;
+        color: #FFF;
+            font-family: Work Sans;
+            font-size: 20px;
+        
+            font-weight: 600;
+            border: 0px;
+            cursor: pointer;
+            padding: 21px 24px 20px 25px;
+          
+
 }
+
+
+
+
+/*header section */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: #131313;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+nav>ul {
+    display: flex;
+
+
+}
+
+nav li {
+    list-style: none;
+    margin: 30px;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner section */
+.baner-content{
+    margin:0 auto;
+    text-align: center;
+
+}
+.banner-title{
+    color:  #131313;
+        font-family: Work Sans;
+        font-size: 64px;
+        font-weight: 700;
+}
+.banner-description{
+    color: #727272;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 50px;
+
+}
+/*banner end */
+
+/* quick list sectin start */
+
+.quick-list-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 301px;
+  padding-right: 301px;
+    
+
+}
+.quick-list-title{
+    color: #131313;
+       
+        font-size: 45px;
+        font-weight: 500;
+
+}
+.quick-list{
+    color: #727272;
+
+}
+.quick-list-feature{
+    color: #FF900E;
+}
+.quick-list-description{
+    color: #727272;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    
+
+}
+
+
